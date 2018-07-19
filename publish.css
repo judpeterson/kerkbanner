@@ -1,0 +1,198 @@
+div.form
+{
+    display: block;
+    text-align: center;
+    position: absolute;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.resizedTextbox
+{
+    padding-left:0;
+    padding-top:0;
+    padding-bottom:0.4em;
+    text-align: left;
+    padding-right: 0.4em;
+    width: 800px; height: 400px
+  }
+  .header {
+      background-color: #F1F1F1;
+      text-align: center;
+      padding: 10px;
+  }
+  * {
+      box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background-color: #F9F9F9;
+  }
+
+  /* Style the top navigation bar */
+  .topnav {
+      overflow: hidden;
+      background-color: #333;
+  }
+
+  /* Style the topnav links */
+  .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  /* The navbar container */
+  .menu {
+     overflow: hidden;
+     background-color: #333;
+  }
+  /* Navbar links */
+  .menu a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+  }
+
+  /* Links - change color on hover */
+  .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+  }
+  .footer {
+      background-color: #F1F1F1;
+      text-align: center;
+      position: fixed;
+      padding: 3px;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+  }
+  p{
+    text-align: justify;
+  }
+  .article{
+    text-align: center;
+  }
+  h2, h4, h5{
+    text-align: center;
+  }
+  h3, h6{
+    text-align: left;
+  }
+  .next{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    z-index: 100;
+  }
+  .nextbutton{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    z-index: 100;
+  }
+  .wrapper {
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+    "c d e"
+    "c d e"
+    "c d e"
+    "c d e"
+    "c d e"
+    "f d g"
+    "f d g"
+    "f d g"
+    "f d g"
+    "f d g";
+  }
+
+  @media all and (max-width: 1000px) {
+    .wrapper{
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "d"
+        "c"
+        "e"
+        "f"
+        "g";
+        grid-template-columns: 1fr;
+      }
+  }
+
+  .three {
+    grid-area:c;
+    background-color: #F9F9F9;
+    padding: 7px;
+  }
+  .four {
+    grid-area: d;
+    background-color: #F9F9F9;
+    padding: 7px;
+  }
+  .five {
+    grid-area: e;
+    background-color: #F9F9F9;
+    padding: 7px;
+  }
+  .six {
+    grid-area: f;
+    background-color: #F9F9F9;
+    padding: 7px;
+  }
+  .seven{
+    grid-area: g;
+    background-color: #F9F9F9;
+    padding: 7px;
+  }
+  a:link {
+      text-decoration: none;
+  }
+
+  a:visited {
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  a:active {
+      text-decoration: underline;
+  }
+  a.headerlink{
+    color: black;
+  }
+  .edit{
+    position: absolute;
+    left: 50%;
+  }
+  p.foot{
+    text-align: center;
+  }
+  img{
+      display: block;
+      margin: auto;
+      width: 40%;
+     }
+
